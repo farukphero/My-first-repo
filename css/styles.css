@@ -1,0 +1,99 @@
+
+.overlay {
+   height: 100%;
+   width: 100%;
+   background-color: #1D1D1D;
+   position: absolute;
+   opacity: .7;
+
+}
+
+
+.tech-bg-color {
+   background-color: #289bde;
+
+}
+
+.tech-btn {
+   background-color: #289BDE;
+   font-weight: 600;
+}
+
+.register-btn {
+   color: #289bde;
+}
+
+.register-btn:hover {
+   color: #289bde;
+}
+
+.tech-btn:hover {
+   background-color: #2d93ce;
+}
+
+.nav-btn:hover {
+   background-color: #289bde;
+   color: white;
+   border: 1px solid #289bde;
+
+}
+
+.nav-btn {
+   background-color: light;
+   border: 1px solid #289bde;
+   color: #289bde;
+   padding: 8px 30px;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+@media screen and (max-width:576px) {
+
+   .mobile-view-join {
+      display: flex;
+      flex-direction: column;
+
+   }
+
+   .ready-join {
+      width: 100% !important;
+   }
+   .row-first {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   
+   
+   
+   }
+
+   /* .ready-join h1{
+   
+    width: 100%;
+     
+  }
+  .ready-join p{
+  width: 100%;
+  padding-right: 80px;
+   ;
+    
+  } */
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+   .row-first{ display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+     
+     
+   }
+   .learning img {
+      height: 800px!important;
+   }
+  
+}
+/* @media screen and (max-width:576px){
+   
+  
+} */
