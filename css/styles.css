@@ -18,6 +18,9 @@
    background-color: #289BDE;
    font-weight: 600;
 }
+.tech-btn:hover {
+   background-color: #2d93ce;
+}
 
 .register-btn {
    color: #289bde;
@@ -27,8 +30,16 @@
    color: #289bde;
 }
 
-.tech-btn:hover {
-   background-color: #2d93ce;
+
+#tech-btn-a{
+   border:1px solid #289BDE;
+   color: #289BDE;
+   font-weight: 600
+}
+#tech-btn-a:hover{
+   background-color: #289BDE;
+   font-weight: 600;
+   color: aliceblue;
 }
 
 .nav-btn:hover {
